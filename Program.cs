@@ -17,7 +17,8 @@ namespace Algorithms
             //CloneLinkedList.CloneListRandomPointer(); 
 
             //PreOrderTreeTraversal.PreOrderTraversal();      
-            InOrderTreeTraversal.InOrderTraversal();
+            //InOrderTreeTraversal.InOrderTraversal();
+            StringPermutation.PrintPermutations();
         }
     }
 }
