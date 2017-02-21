@@ -18,9 +18,7 @@ namespace Algorithms
         public int Data { get; set; }
         public TreeNode Left { get; set; }
         public TreeNode Right { get; set; }
-    }
-    class PreOrderTreeTraversal
-    {
+
         public static TreeNode GenerateTree()
         {
             TreeNode root = new TreeNode(1);
@@ -30,7 +28,9 @@ namespace Algorithms
             root.Right = new TreeNode(3);
             return root;
         }
-
+    }
+    class PreOrderTreeTraversal
+    {
         public static void Traverse(TreeNode root)
         {
             Stack<TreeNode> stack = new Stack<TreeNode>();
@@ -54,7 +54,7 @@ namespace Algorithms
 
         public static void PreOrderTraversal()
         {
-            TreeNode root = GenerateTree();
+            TreeNode root = TreeNode.GenerateTree();
             Traverse(root);
         }
     }

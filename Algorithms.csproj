@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CloneLinkedList.cs" />
+    <Compile Include="InOrderTreeTraversal.cs" />
     <Compile Include="PreOrderTreeTraversal.cs" />
     <Compile Include="MergeSort.cs" />
     <Compile Include="Program.cs" />
