@@ -11,14 +11,15 @@ namespace Algorithms
         static void Main(string[] args)
         {
             //MergeSort algorithm = new MergeSort();
-            //int[] array = new int[] { 3, 1, 2, 4, 5 };
+            int[] array = new int[] { 1, 2, 3, 4, 5, 6 };
             //algorithm.mergesort(array, 0, 4);
 
             //CloneLinkedList.CloneListRandomPointer(); 
 
             //PreOrderTreeTraversal.PreOrderTraversal();      
             //InOrderTreeTraversal.InOrderTraversal();
-            StringPermutation.PrintPermutations();
+            //StringPermutation.PrintPermutations();
+            Search.BinarySearch(array, 6);
         }
     }
 }
