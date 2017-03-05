@@ -19,7 +19,9 @@ namespace Algorithms
             //PreOrderTreeTraversal.PreOrderTraversal();      
             //InOrderTreeTraversal.InOrderTraversal();
             //StringPermutation.PrintPermutations();
-            Search.BinarySearch(array, 6);
+            //  Search.BinarySearch(array, 6);
+            //Strings.RemoveDuplicate("hello");
+            CycleLinkedList.IsCircular();
         }
     }
 }
