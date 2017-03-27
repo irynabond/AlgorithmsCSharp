@@ -11,7 +11,7 @@ namespace Algorithms
         static void Main(string[] args)
         {
             //MergeSort algorithm = new MergeSort();
-            int[] array = new int[] { 1, 2, 3, 4, 5, 6 };
+            int[] arr = { 9, 4, 8, 3, 1, 2, 5 };
             //algorithm.mergesort(array, 0, 4);
 
             //CloneLinkedList.CloneListRandomPointer(); 
@@ -21,7 +21,12 @@ namespace Algorithms
             //StringPermutation.PrintPermutations();
             //  Search.BinarySearch(array, 6);
             //Strings.RemoveDuplicate("hello");
-            CycleLinkedList.IsCircular();
+            //CycleLinkedList.IsCircular();
+            //HeapSort.Sort(array, 5);
+            //HeapInsert.Insert(3);
+            //HeapInsert.Insert(5);
+            //HeapInsert.Insert(6);
+            Solution.quickSort(arr, 0, 6);
         }
     }
 }

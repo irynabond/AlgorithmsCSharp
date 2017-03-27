@@ -36,9 +36,9 @@ namespace Algorithms
         }
         public static void PrintPermutations()
         {
-            string str = "ABC";
+            string str = "AB";
             char[] arr = str.ToCharArray();
-            Permutations(arr, 0, 2);
+            Permutations(arr, 0, 1);
         }
     }
 }

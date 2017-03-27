@@ -46,6 +46,9 @@
     <Compile Include="BinarySearch.cs" />
     <Compile Include="CloneLinkedList.cs" />
     <Compile Include="CycleLinkedList.cs" />
+    <Compile Include="HeapInsert.cs" />
+    <Compile Include="HeapSort.cs" />
+    <Compile Include="QuickSort.cs" />
     <Compile Include="RemoveDuplicateString.cs" />
     <Compile Include="InOrderTreeTraversal.cs" />
     <Compile Include="PreOrderTreeTraversal.cs" />
